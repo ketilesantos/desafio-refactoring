@@ -5,4 +5,5 @@ export default interface Food {
     price: string;
     available: boolean;
     image: string;
+    editModalOpen?: boolean;
 }
